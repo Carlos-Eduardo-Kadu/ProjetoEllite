@@ -24,7 +24,13 @@
     display: inline-block;
     font-weight: 600;
   }
-    
+  .display-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
   input, 
   textarea, 
   select{
