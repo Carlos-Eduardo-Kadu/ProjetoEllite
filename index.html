@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ellite Engenharia</title>
+    <link rel="icon" href="assets/images/engenharia.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>  
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="Bootstrap/bootstrap.min.css">  
+</head>
+<body>
+    
+<!--==================== HEADER ====================-->
+<header class="header" id="header">
+    <nav class="nav container">
+        <a href="#" class="nav__logo">
+           Ellite Engenharia<i class='bx bxs-home-alt-2'></i>
+        </a>
+        <div class="nav__menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link activate-link">
+                        <i class='bx bx-home-alt-2'></i>
+                        <span>Home</span>
+                    </a>
+                </li>    
+
+                <li class="nav__item">
+                    <a href="#servicosRealizados" class="nav__link">
+                        <i class='bx bx-building-house' ></i>
+                        <span>Serviços Realizados</span>
+                    </a>
+                </li>    
+
+                <li class="nav__item">
+                    <a href="#value" class="nav__link">
+                        <i class='bx bx-award' ></i>
+                        <span>Valores</span>
+                    </a>
+                </li>   
+
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link">
+                        <i class='bx bx-phone'></i>
+                        <span>Contato</span>
+                    </a>
+                </li>    
+            </ul>
+        </div> 
+    </nav>       
+</header>
+
+
+
+<!--==================== HOME ====================-->
+<main class="main">
+    <section class="home section" id="home">
+       <div class="home__container container grid">
+            <div class="home__data">
+                <h1 class="home__title">
+                    Conheça o melhor serviço de <br> Engenharia Civil
+                </h1>
+                <p class="home__description">
+                    A Ellite Construções Gerais EIRELI é uma empresa dedicada a oferecer serviços de construção civil de alta qualidade e excelência. Nosso compromisso fundamental é proporcionar aos nossos clientes uma experiência completa e satisfatória.
+                </p>
+
+                <div class="div home__value">
+                    <div>
+                        <h1 class="home__value-number">
+                            Qualidade<span style="color: #d6b884";>+</span>
+                        </h1>
+                    </div>
+                    
+                    <div>
+                        <h1 class="home__value-number">
+                            Pontualidade<span style="color: #d6b884";>+</span>
+                        </h1>
+                    </div>
+                    
+                    <div>
+                        <h1 class="home__value-number">
+                            Comprometimento<span style="color: #d6b884";>+</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <h1 class="home__value-number">
+                            Segurança<span style="color: #d6b884";>+</span>
+                        </h1>
+                    </div>
+                    <div>
+                        <h1 class="home__value-number">
+                            Orçamento Justo<span style="color: #d6b884";>+</span>
+                        </h1>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="home__images">
+                <div class="home__orbe"></div>
+
+                <div class="home__img">
+                    <img src="./assets/images/high-angle-measuring-tools-still-life.jpg" alt="">
+                </div>
+            </div>
+       </div>      
+    </section>
+
+
+<!--==================== PARCEIROS ====================-->
+<section class="logos section" id="logos">
+    <div class="container"> 
+        <h2 class="section__title">
+            Nossos Pareceiros <img src="assets/images/handshake-solid.svg" alt="" width="50" height="50">
+        </h2>
+        
+    </div>
+    <div class="logos__container container grid">
+        <div class="logos__img">
+            <img src="./assets/images/santander1.svg" alt="Construtora Parceira">
+        </div>
+    </div>
+</section>
+
+
+
+<!--==================== SERVIÇOS REALIZADOS ====================-->
+<section class="popular section" id="servicosRealizados">
+    <div class="container">
+        <h2 class="section__title">
+           Nossos serviços <img src="assets/images/cogs-solid.svg" alt="" width="50" height="50">
+        </h2>
+
+        <div class="popular__container swiper">
+            <div class="swiper-wrapper">
+
+                <!--SERVIÇO 1-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/workCafeSantander/workCafeSantander (12).jpeg" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h2 class="popular__price" style="display: flex;">
+                            <span>Santander WorkCafé Campinas</span> <img src="assets/images/logoSantander-removebg-preview.png" alt="" width="20" height="20">
+                        </h2>
+                        <h3 class="popular__title">
+                            
+                        </h3>
+                        <p class="popular__description">
+                        
+                        
+                        </p>
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(1)">
+                            Clique para ver + 
+                        </button>
+                    </div>
+                </article>
+
+                <!--SERVIÇO 2-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/plataformaSantanderBomRetiro/santanderBomretiro (5).jpeg" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h2 class="popular__price" style="display: flex;">
+                            <span>Plataforma Santander - Bom Retiro</span> <img src="assets/images/logoSantander-removebg-preview.png" alt="" width="20" height="20">
+                        </h2>
+                        <h3 class="popular__title">
+                            
+                        </h3>
+                        <p class="popular__description">
+                            
+                        </p>
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(2)">
+                            Clique para ver + 
+                        </button>
+                    </div>
+                </article>
+
+                <!--SERVIÇO 3-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (6).jpeg" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h2 class="popular__price" style="display: flex;">
+                            <span>Santander - Agência 9 de julho</span> <img src="assets/images/logoSantander-removebg-preview.png" alt="" width="20" height="20">
+                        </h2>
+                        <h3 class="popular__title">
+                            
+                        </h3>
+                        <p class="popular__description">
+                            
+                        </p>
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(3)">
+                            Clique para ver + 
+                        </button>
+                    </div>
+                </article>
+
+                <!--SERVIÇO 4-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/reformaSantandeLapaBaraoDeJundiai/lapaBaraoDeJundiai (2).jpeg" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h2 class="popular__price" style="display: flex;">
+                            <span>Santander - Lapa Barão de jundiai</span> <img src="assets/images/logoSantander-removebg-preview.png" alt="" width="20" height="20">
+                        </h2>
+                        <h3 class="popular__title">
+                            
+                        </h3>
+                        <p class="popular__description">
+                        
+                        </p>
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(4)">
+                            Clique para ver + 
+                        </button>
+                    </div>
+                </article>
+
+                <!--SERVIÇO 5-->
+                <article class="popular__card swiper-slide">
+                    <img src="./assets/images/escolaMinasGerais/escolaMinasGerais (10).jpeg" alt="" class="popular__img">
+                    <div class="popular__data">
+                        <h2 class="popular__price" style="display: flex;">
+                            <span>Escola da Prefeitura de Minas</span> <img src="assets/images/png-transparent-bandeira-de-minas-gerais-flag-inconfidencia-mineira-rugby-ball-minas-gerais-angle-flag-text-thumbnail-removebg-preview.png" alt="" width="20" height="20">
+                        </h2>
+                        <h3 class="popular__title">
+                            
+                        </h3>
+                        <p class="popular__description">
+                            
+                        </p>
+                        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="carregaMedia(5)">
+                            Clique para ver + 
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="swiper-pagination"></div> 
+        </div>
+    </div>
+</section>
+
+
+
+<!--==================== VALUE ====================-->
+<section class="value section" id="value">
+    <div class="value__container container grid">
+        <div class="value__images">
+            <div class="value__orbe"></div>
+
+            <div class="value__img">
+                <img src="./assets/images/image-engineering-objects-workplace-top-view-construction-concept-engineering-tools-vintage-tone-retro-filter-effect-soft-focus-selective-focus.jpg" alt="">
+            </div>
+        </div>    
+
+            <div class="value__content">
+                <div class="value_data">
+                    <h2 class="section__title">
+                        Garantimos a você
+                    </h2>
+                    <p class="value__description">
+                        Estamos sempre prontos em ajudar a e entregar o melhorserviço possível.
+                    </p>
+
+            <!--Item 1-->
+            <div class="value__accordion">
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-star value__accordion-icon' style="color: #d6b884";></i>
+                        <h3 class="value__accordion-title">
+                            QUALIDADE
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow' style="color: #d6b884";></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            Nossa empresa se compromete a entregar projetos e obras de engenharia civil com os mais altos padrões de qualidade.
+                        </p>
+                    </div>
+                </div>
+
+            <!--Item 2-->           
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-bar-chart-square value__accordion-icon' style="color: #d6b884";></i>
+                        <h3 class="value__accordion-title">
+                            PONTUALIDADE
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow' style="color: #d6b884";></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description">
+                            A pontualidade é um dos pilares do nosso trabalho. Cumprimos prazos com eficiência, garantindo que cada etapa do projeto seja concluída dentro do tempo planejado, sem comprometer a qualidade. Respeitar o tempo do cliente é uma demonstração de profissionalismo e dedicação que guia todas as nossas ações.
+                        </p>
+                    </div>
+                </div>
+
+            <!--Item 3-->      
+                <div class="value__accordion-item">
+                    <header class="value__accordion-header">
+                        <i class='bx bxs-check-square value__accordion-icon' style="color: #d6b884";></i>
+                        <h3 class="value__accordion-title">
+                            COMPROMETIMENTO
+                        </h3>
+                        <div class="value__accordion-arrow">
+                            <i class='bx bxs-down-arrow' style="color: #d6b884";></i>
+                        </div>
+                    </header>
+
+                    <div class="value__accordion-content">
+                        <p class="value__accordion-description" style="text-align: justify;">
+                            Comprometimento é mais do que cumprir tarefas, é entregar excelência em cada detalhe. Nossa equipe trabalha com dedicação, foco e responsabilidade, garantindo que os objetivos do cliente sejam alcançados com eficiência. Estamos sempre prontos para superar desafios, buscando soluções e mantendo a transparência em todas as etapas. O sucesso do seu projeto é a nossa prioridade!
+                        </p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+<!--==================== CONTACT ====================-->
+<section class="contact section" id="contact">
+    <div class="contact__container container grid">
+        <div class="contact__images">
+            <div class="contact__orbe"></div>
+
+            <div class="contact__img">
+                <img src="./assets/images/front-view-man-reading-schematic.jpg" alt="Contato">
+            </div>
+        </div>
+
+        <div class="contact__content">
+
+            <div class="contact__data">
+                <h2 class="section__title">
+                    Entre em contato<span>.</span>
+                </h2>
+                <p class="contact__description" style="text-align: justify;">
+                    Estamos prontos para transformar seu projeto em realidade! Entre em contato e fale com nossa equipe. Seja para tirar dúvidas, solicitar um orçamento ou conhecer mais sobre nossos serviços, estaremos à disposição para atender você com agilidade e atenção.
+                </p>
+            </div>
+
+
+            <div class="contact__card">
+
+                <!--Contato telefone-->
+                <div class="contact_card-box">
+                    <div class="contact__card-info">
+                        <i class='bx bxs-phone-call'  style="color: #d6b884";></i>
+                        <div>
+                            <h3 class="contact__card-title">
+                            Telefone
+                            </h3>
+                            <p class="contact__card-description">
+                                +55 11 943792216
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <a href="tel:+5511943792216">
+                        <button class="contact__card-button">
+                            Ligue Agora
+                        </button>
+                    </a>
+                    
+                    
+                </div>
+
+                <!--Contato WhatsApp-->
+                <div class="contact_card-box">
+                    <div class="contact__card-info">
+                        <i class='bx bxl-whatsapp'  style="color: #d6b884";></i>
+                        <div>
+                            <h3 class="contact__card-title">
+                                Chat
+                            </h3>
+                            <p class="contact__card-description">
+                                +55 11 94379-2216
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/5511943792216" target="_blank">
+                        <button class="contact__card-button">
+                            WhatsApp
+                        </button>
+                    </a>
+                </div>
+
+                <!--Contato Email-->
+                <div class="contact_card-box">
+                    <div class="contact__card-info">
+                        <i class='bx bxs-envelope'  style="color: #d6b884";></i>
+                        <div>
+                            <h3 class="contact__card-title">
+                                E-mail
+                            </h3>
+                            <p class="contact__card-description">
+                                Construtora@ellite.eng.br
+                            </p>
+                        </div>
+                    </div>
+
+                    <a href="mailto:Construtora@ellite.eng.br">
+                        <button class="contact__card-button">
+                            Mensagem
+                        </button>
+                    </a>
+                </div>
+
+            
+            </div>
+        </div>
+    </div>    
+</section>
+
+<!--==================== APPOINTMENT ====================-->
+
+<section class="appointment section ">
+    <div class="appointment-container container">
+        <div class="info">
+            
+            <h2><i class='bx bxs-envelope'  style="color: #d6b884";></i> Envie uma mensagem</h2>
+            <p>Mande uma mensagem que entraremos em contato o mais breve possivel.</p>
+        </div>
+
+        <form action="https://formsubmit.co/89513673f4e6c8f2fca8e43c9453a4ed" method="POST">
+                <div class="form-group info">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" class="form-control" placeholder="Digite seu nome" required>
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="numero">Número para contato</label>
+                    <input type="text" name="numero" id="numero" class="form-control" placeholder="Digite seu melhor número" >
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="exampleInputEmail1">Digite seu Email</label>
+                    <input type="email" name="email"  id="email" class="form-control"  aria-describedby="emailHelp" placeholder="Enter email" required>
+                    <small id="InputEmail1" class="form-text text-muted">Não compartilharemos seu email com ninguém</small>
+                </div>
+
+                <div class="form-group mt-2">
+                    <label for="mensagem" class="form-label">Textarea</label>
+                    <textarea class="form-control" name="mensagem" id="mensagem" placeholder="Digite o tipo de serviço" required></textarea>
+                </div>
+
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
+                  
+                <div class="form-group mt-2">
+                    <button type="submit" class="btn btn-dark">Enviar Mensagem</button>
+                </div>
+                
+        </form>
+    </div>
+</section>
+
+
+<!--==================== FOOTER ====================-->
+<footer class="footer section">
+    <div class="footer__container container grid">
+        <div>
+            <a href="#" class="footer__logo" style="color: #d6b884";>
+                Ellite Engenharia<i class='bx bxs-home-alt-2' style="color: #d6b884";></i>
+            </a>
+            <p class="footer__description">
+                Nossa Missão é 
+                Transformar ideias em realidade, oferecendo soluções de engenharia civil que unem inovação, qualidade e sustentabilidade. Buscamos atender às necessidades de nossos clientes com excelência, criando projetos que impactem positivamente a sociedade e contribuam para o desenvolvimento. Nossa missão é construir com responsabilidade, respeitando prazos, recursos e promovendo relações de confiança duradouras.
+            </p>
+        </div>
+    </div>
+
+    <div class="footer__info ">
+        <span class="footer__copy">
+            &#169;  Ellite Engenharia. Todos os direitos reservados.
+        </span>
+    </div>
+</footer>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl"> <!-- Use  modal-xl para uma boa largura do modal -->
+      <div class="modal-content background-modal">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel" style="color: white;">Imagens do Projeto Realizado</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row" id="mediaGrid">
+            <!-- As imagens serão alteradas dinamicamente -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary mt-2" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+</div>
+  
+
+
+<!--========== SCROLL UP ==========-->
+<a href="#" class="scrollup" id="scroll-up">
+    <i class='bx bx-chevrons-up' style="color: #d6b884;"></i>
+</a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+    <script src="jquery/jquery-3.7.1.slim.min.js"></script>
+    <script src="Bootstrap/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
