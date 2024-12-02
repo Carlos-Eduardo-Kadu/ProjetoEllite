@@ -119,9 +119,7 @@ sr.reveal(`.logos__img`, {interval:100})
 sr.reveal(`.value__images, .contact__content`, {origin:'left'})
 sr.reveal(`.value__content, .contact__images`, {origin:'right'})
 
-// Alterar imagens do grid
-
-// Conjuntos de imagens
+/*=============== CONJUNTO DE IMAGES ===============*/
   const mediaSets = {
     1: [
       { type: "image", src: "assets/images/workCafeSantander/workCafeSantander (1).jpeg" },
@@ -191,7 +189,7 @@ sr.reveal(`.value__content, .contact__images`, {origin:'right'})
         { type: "image", src: "assets/images/escolaMinasGerais/escolaMinasGerais (11).jpeg" },
       ]
   };
-// Função para carregar imagens e vídeo
+/*=============== CARREGAR IMAGES E VIDEOS ===============*/
   function carregaMedia(setNumber) {
     const mediaGrid = document.getElementById("mediaGrid");
     mediaGrid.innerHTML = ""; 
@@ -223,3 +221,34 @@ sr.reveal(`.value__content, .contact__images`, {origin:'right'})
     });
   }
   carregaMedia(1);
+
+/*=============== SLIDE DOS CERTIFICADOS ===============*/
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
