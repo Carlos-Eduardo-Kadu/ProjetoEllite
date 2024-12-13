@@ -149,20 +149,20 @@ sr.reveal(`.value__content, .contact__images`, {origin:'right'})
       { type: "image", src: "assets/images/plataformaSantanderBomRetiro/santanderBomretiro (11).jpeg" }
     ],
     3: [
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (1).jpeg" },
-      { type: "video", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (1).mp4" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (2).jpeg" },
-      { type: "video", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (2).mp4" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (3).jpeg" },
-      { type: "video", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (3).mp4" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (4).jpeg" },
-      { type: "video", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (4).mp4" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (5).jpeg" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (6).jpeg" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (7).jpeg" },
-      { type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (8).jpeg" },
-      {type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (9).jpeg" },
-      {type: "image", src: "assets/images/SantanderReformageralAgênciaNoveDeJulho/noveJulho (10).jpeg" }
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (1).jpeg" },
+      { type: "video", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (1).mp4" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (2).jpeg" },
+      { type: "video", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (2).mp4" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (3).jpeg" },
+      { type: "video", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (3).mp4" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (4).jpeg" },
+      { type: "video", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (4).mp4" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (5).jpeg" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (6).jpeg" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (7).jpeg" },
+      { type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (8).jpeg" },
+      {type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (9).jpeg" },
+      {type: "image", src: "assets/images/SantanderReformageralAgenciaNoveDeJulho/noveJulho (10).jpeg" }
       
     ],
     4: [
